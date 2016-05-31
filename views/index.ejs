@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/css/bootstrap.min.css' />
+	<script src="/js/jquery-1.12.4.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="col-md-11 col-sm-11">
+				<h1 class="text-center">
+					Violent Scene Detection Based on Audio CNN
+				</h1>
+				<h3 class="text-center">
+					- Multimedia Computing Lab, Renmin University of China
+				</h3>
+				<hr />
+			</div>
+			<div class="col-md-1 col-sm-1">
+				<span>
+					<img src="/images/logo.png" style="width:100%; box-sizing: border-box; float:right; margin:25% 0"/>
+				</span>
+			</div>
+		</div>
+		
+		
+		<div class="tabbable" id="tabs-915251">
+			<ul class="nav nav-tabs">
+				<li class="active">
+					<a href="#panel-853741" data-toggle="tab">Results Presentation</a>
+				</li>
+				<li>
+					<a href="#panel-947424" data-toggle="tab">Technique Details</a>
+				</li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane active" id="panel-853741">
+		
+					<div class="row-fluid">
+						<div class="col-md-12 col-sm-12">
+						<h3 class="text-center">
+							True Positive Samples.
+						</h3>
+						</div>
+					</div>
+					<div class="row-fluid">
+						<div class="col-md-3 col-sm-3">
+							<div class="media">
+							<div class="media-body">
+								<video src="/videos/TruePositive/SHOT_009196.mp4" width="100%"  controls="controls">
+								Your browser does not support the video tag.
+								</video>
+								<h4 class="media-heading">
+									AP:0.99
+								</h4>
+							</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							<div class="media">
+							<div class="media-body">
+								<video src="/videos/TruePositive/SHOT_008646.mp4" width="100%"  controls="controls">
+								Your browser does not support the video tag.
+								</video>
+								<h4 class="media-heading">
+									AP:0.99
+								</h4>
+							</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							<div class="media">
+							<div class="media-body">
+								<video src="/videos/TruePositive/SHOT_007545.mp4" width="100%"  controls="controls">
+								Your browser does not support the video tag.
+								</video>
+								<h4 class="media-heading">
+									AP:0.99
+								</h4>
+							</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							<div class="media">
+							<div class="media-body">
+								<video src="/videos/TruePositive/SHOT_010253.mp4" width="100%"  controls="controls">
+								Your browser does not support the video tag.
+								</video>
+								<h4 class="media-heading">
+									AP:0.99
+								</h4>
+							</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row-fluid">
+						<div class="col-md-12 col-sm-12">
+						<h3 class="text-center">
+							False Positive Samples.
+						</h3>
+						</div>
+					</div>
+					<div class="row-fluid">
+						<div class="col-md-3 col-sm-3">
+							<div class="media">
+							<div class="media-body">
+								<video src="/videos/FalsePositive/SHOT_010505.mp4" width="100%"  controls="controls">
+								Your browser does not support the video tag.
+								</video>
+								<h4 class="media-heading">
+									AP:0.99
+								</h4>
+							</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							<div class="media">
+							<div class="media-body">
+								<video src="/videos/FalsePositive/SHOT_010363.mp4" width="100%"  controls="controls">
+								Your browser does not support the video tag.
+								</video>
+								<h4 class="media-heading">
+									AP:0.99
+								</h4>
+							</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							<div class="media">
+							<div class="media-body">
+								<video src="/videos/FalsePositive/SHOT_009174.mp4" width="100%"  controls="controls">
+								Your browser does not support the video tag.
+								</video>
+								<h4 class="media-heading">
+									AP:0.99
+								</h4>
+							</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							<div class="media">
+							<div class="media-body">
+								<video src="/videos/FalsePositive/SHOT_008427.mp4" width="100%"  controls="controls">
+								Your browser does not support the video tag.
+								</video>
+								<h4 class="media-heading">
+									AP:0.99
+								</h4>
+							</div>
+							</div>
+						</div>
+					</div>
+
+					
+					<div class="row-fluid">
+						<div class="col-md-12 col-sm-12">
+						<h3 class="text-center">
+							True Negative Samples.
+						</h3>
+						</div>
+					</div>
+					<div class="row-fluid">
+						<div class="col-md-3 col-sm-3">
+							<div class="media">
+							<div class="media-body">
+								<video src="/videos/TrueNegative/SHOT_008652.mp4" width="100%"  controls="controls">
+								Your browser does not support the video tag.
+								</video>
+								<h4 class="media-heading">
+									AP:0.99
+								</h4>
+							</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							<div class="media">
+							<div class="media-body">
+								<video src="/videos/TrueNegative/SHOT_009112.mp4" width="100%"  controls="controls">
+								Your browser does not support the video tag.
+								</video>
+								<h4 class="media-heading">
+									AP:0.99
+								</h4>
+							</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							<div class="media">
+							<div class="media-body">
+								<video src="/videos/TrueNegative/SHOT_010741.mp4" width="100%"  controls="controls">
+								Your browser does not support the video tag.
+								</video>
+								<h4 class="media-heading">
+									AP:0.99
+								</h4>
+							</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							<div class="media">
+							<div class="media-body">
+								<video src="/videos/TrueNegative/SHOT_008427.mp4" width="100%"  controls="controls">
+								Your browser does not support the video tag.
+								</video>
+								<h4 class="media-heading">
+									AP:0.99
+								</h4>
+							</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="row-fluid">
+						<div class="col-md-12 col-sm-12">
+						<h3 class="text-center">
+							False Negative Samples.
+						</h3>
+						</div>
+					</div>
+					<div class="row-fluid">
+						<div class="col-md-3 col-sm-3">
+							<div class="media">
+							<div class="media-body">
+								<video src="/videos/FalseNegative/SHOT_008651.mp4" width="100%"  controls="controls">
+								Your browser does not support the video tag.
+								</video>
+								<h4 class="media-heading">
+									AP:0.99
+								</h4>
+							</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							<div class="media">
+							<div class="media-body">
+								<video src="/videos/FalseNegative/SHOT_010686.mp4" width="100%"  controls="controls">
+								Your browser does not support the video tag.
+								</video>
+								<h4 class="media-heading">
+									AP:0.99
+								</h4>
+							</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							<div class="media">
+							<div class="media-body">
+								<video src="/videos/FalseNegative/SHOT_010688.mp4" width="100%"  controls="controls">
+								Your browser does not support the video tag.
+								</video>
+								<h4 class="media-heading">
+									AP:0.99
+								</h4>
+							</div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-3">
+							<div class="media">
+							<div class="media-body">
+								<video src="/videos/FalseNegative/SHOT_008427.mp4" width="100%"  controls="controls">
+								Your browser does not support the video tag.
+								</video>
+								<h4 class="media-heading">
+									AP:0.99
+								</h4>
+							</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+				
+				
+				<div class="tab-pane" id="panel-947424">
+					<div class="row-fluid">
+						<div class="col-md-12 col-sm-12">
+							<h3 class="text-center">
+								System Architecture.
+							</h3>
+							<img src="images/VSD-Architecture.jpg" width="80%" class="img-rounded img-responsive center-block" />
+						</div>
+					</div>
+					<div class="row-fluid">
+						<div class="col-md-12 col-sm-12">
+						<hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));" >
+						</div >
+					</div>
+					<div class="row-fluid">
+						<h3 class="text-center">
+							CNN Input Feature.
+						</h3>
+					</div>										
+					<div class="row-fluid">
+						<div class="col-md-7 col-sm-7">
+							<img src="images/Input-data-organization.jpg" width="80%" class="img-rounded img-responsive center-block" />
+						</div>
+						<div class="col-md-5 col-sm-5" style="border: 1px solid #CCC; border-radius: 4px; height: 40%">
+							<h4>
+								MFB - Mel Filter Bank
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+  </body>
+</html>
